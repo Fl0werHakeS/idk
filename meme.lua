@@ -1,6 +1,6 @@
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
-		local code = game:HttpGet("https://pastebin.com/raw/")
+	local code = game:HttpGet("https://raw.githubusercontent.com/Fl0werHakeS/idk/main/meme.lua")
         syn.queue_on_teleport(code)
     end
 end)
